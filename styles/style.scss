@@ -28,27 +28,25 @@
 }
 
 .sayt {
-    overflow: hidden;
+  overflow: hidden;
   @include screen(1920px, 100%);
   margin: auto;
 
-  &>.home{
+  & > .home {
     background: url(../images/home1.png) no-repeat center center / cover;
   }
-  &>.header__facilities{
+  & > .header__facilities {
     background: url(../images/facilities1.png) no-repeat center center / cover;
   }
-  &>.header__contact{
-    background: #B7904B;
+  & > .header__contact {
+    background: #b7904b;
   }
-  &>.header__rooms{
+  & > .header__rooms {
     background: url(../images/rooms1.png) no-repeat center center / cover;
   }
   & > .header {
-  
     & > .header__top {
       @include display(space-around);
-      
 
       & > .header__top__icon {
         width: 300px;
@@ -57,6 +55,7 @@
         background: #14274a;
         border-bottom-left-radius: 25%;
         border-bottom-right-radius: 25%;
+        box-sizing: border-box;
         & > h3 {
           color: #e0b973;
           font-weight: 400;
@@ -176,6 +175,127 @@
         height: 60px;
         margin-top: 30px;
         margin-bottom: 23px;
+      }
+    }
+  }
+
+  & > .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: #14274a;
+    color: #ffffff;
+
+    padding-top: 38px;
+    padding-bottom: 66px;
+
+    & > .footer__contacts {
+      margin: 38px;
+      width: 185px;
+
+      & > h3 {
+        font-family: "Fenix";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 27px;
+        letter-spacing: 0.15em;
+        
+        color: #e0b973;
+      }
+
+      & > h5 {
+        font-family: "Finger Paint";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        /* identical to box height */
+
+        letter-spacing: 0.6em;
+        margin-bottom: 22px;
+        color: #e0b973;
+      margin-left: 28px;
+      }
+
+      & > p {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+margin-top: 5px;
+        color: #ffffff;
+      }
+    }
+
+    & > .footer__links {
+      margin: 38px;
+      display: flex;
+      flex-direction: column;
+
+      & > a {
+        text-decoration: none;
+        color: #f7f7f7;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 22px;
+
+        & > i {
+          margin-right: 26px;
+        }
+      }
+    }
+
+    & > form {
+      margin: 38px;
+
+      & > h3 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+
+        margin-bottom: 30px;
+        color: #ffffff;
+      }
+
+      & > input {
+        width: 278px;
+        height: 50px;
+        border: 2px solid #e0b973;
+        background: transparent;
+        padding-left: 25px;
+        box-sizing: border-box;
+      }
+
+      & > input::placeholder {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+        margin-left: 25px;
+
+        color: #ffffff;
+      }
+      & > button {
+        width: 80px;
+        height:50px;
+        margin-top: 1px;
+        border: 2px solid #e0b973;
+        background: #e0b973;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        /* identical to box height */
+        box-sizing: border-box;
+        color: #14274a;
       }
     }
   }
