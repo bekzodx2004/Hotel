@@ -30,6 +30,19 @@
 }
 .sayt > .header__contact {
   background: #b7904b;
+  overflow: hidden;
+}
+.sayt > .header__contact > h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 98px;
+  /* identical to box height */
+  color: #e5e5e5;
+  text-align: center;
+  margin-top: 162px;
+  margin-bottom: 68px;
 }
 .sayt > .header__rooms {
   background: url(../images/rooms1.png) no-repeat center center/cover;
@@ -223,12 +236,12 @@
   border: none;
   border-radius: 15px;
 }
-.sayt .facilities {
+.sayt > .facilities {
   padding-top: 82px;
   padding-bottom: 45px;
   background: #f7f7f7;
 }
-.sayt .facilities > h2 {
+.sayt > .facilities > h2 {
   font-family: "Adobe Garamond Pro";
   font-style: normal;
   font-weight: 700;
@@ -239,7 +252,7 @@
   letter-spacing: 0.05em;
   color: #14274a;
 }
-.sayt .facilities > p {
+.sayt > .facilities > p {
   max-width: 1540px;
   width: 95%;
   margin: auto;
@@ -252,7 +265,7 @@
   margin-top: 34px;
   color: #14274a;
 }
-.sayt .facilities > .facilities__card {
+.sayt > .facilities > .facilities__card {
   max-width: 1580px;
   width: 95%;
   margin: auto;
@@ -261,10 +274,10 @@
   display: flex;
   flex-direction: column;
 }
-.sayt .facilities > .facilities__card > img {
+.sayt > .facilities > .facilities__card > img {
   width: 100%;
 }
-.sayt .facilities > .facilities__card > h2 {
+.sayt > .facilities > .facilities__card > h2 {
   max-width: 684px;
   width: 95%;
   height: 75px;
@@ -281,6 +294,105 @@
   margin-top: -75px;
   padding-top: -75px;
   z-index: 2;
+}
+.sayt > .contact {
+  max-width: 1510px;
+  margin: auto;
+  padding: 10px;
+  padding-top: 260px;
+  padding-bottom: 531px;
+}
+.sayt > .contact > h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  /* identical to box height */
+  color: #14274a;
+}
+.sayt > .contact > p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  color: #14274a;
+}
+.sayt > .contact > .forma {
+  margin-top: 160px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.sayt > .contact > .forma > div {
+  max-width: 565px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+.sayt > .contact > .forma > div > h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  margin-top: 10px;
+  color: #14274a;
+}
+.sayt > .contact > .forma > div > a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  text-decoration: none;
+  color: #14274a;
+  margin-top: 28px;
+  margin-bottom: 54px;
+  display: block;
+}
+.sayt > .contact > .forma > form {
+  max-width: 570px;
+  width: 95%;
+}
+.sayt > .contact > .forma > form > label {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #14274a;
+}
+.sayt > .contact > .forma > form > input {
+  background: #f7f7f7;
+  border: 2px solid rgba(20, 39, 74, 0.5);
+  border-radius: 10px;
+  max-width: 570px;
+  width: 100%;
+  display: block;
+  height: 78px;
+  margin-top: 8px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.sayt > .contact > .forma > form > :nth-child(6) {
+  height: 352px;
+}
+.sayt > .contact > .forma > form > button {
+  width: 145px;
+  height: 78px;
+  margin-top: 22px;
+  float: right;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #f7f7f7;
+  background: #e0b973;
+  border-radius: 15px;
+  border: none;
 }
 .sayt > .footer {
   display: flex;
