@@ -92,7 +92,10 @@
         & > li {
           width: 138px;
           list-style: none;
-          margin: 10px;
+          padding: 10px;
+          text-align: center;
+          border-radius: 5px;
+          
 
           & > a {
             font-family: "Montserrat";
@@ -103,6 +106,10 @@
             color: #ffffff;
             text-decoration: none;
           }
+        }
+
+        &>li:hover{
+          background-color: #ffffff72
         }
       }
     }
