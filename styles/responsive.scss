@@ -46,7 +46,7 @@
         }
       }
       & > .header__h1 {
-        font-size: 40px;
+        font-size: 30px;
         margin-top: 60px;
         margin-bottom: 25px;
       }
@@ -55,6 +55,7 @@
         & > button {
           width: 300px;
           height: 50px;
+          font-size: 15px;
         }
 
         & > img {
@@ -85,12 +86,13 @@
 
     & > .rooms {
       & > h2 {
-        font-size: 40px;
+        font-size: 30px;
+        line-height: 30px;
       }
 
       & > .rooms__room {
         & > .rooms__room__type {
-          font-size: 25px;
+          font-size: 20px;
           padding-top: 15px;
           padding-bottom: 15px;
         }
@@ -106,6 +108,7 @@
           & > button {
             height: 40px;
             width: 260px;
+            font-size: 20px;
           }
         }
       }
@@ -115,7 +118,8 @@
       padding-top: 80px;
       padding-bottom: 100px;
       & > h2 {
-        font-size: 40px;
+        font-size: 30px;
+        line-height: 30px;
         text-align: center;
       }
       & > p {
@@ -159,12 +163,10 @@
     }
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
   .sayt {
     & > .header {
-     
       & > .header__text {
-       
         & > h2 {
           font-size: 30px;
         }
@@ -181,20 +183,30 @@
       }
     }
 
-    &>.homePage{
-
-        &>.homePage__block{
-
-            &>.homePage__block__card{
-
-                &>h2{
-                    font-size: 35px;
-                }
-                &>p{
-                    font-size: 20px;
-                }
-            }
+    & > .homePage {
+      & > .homePage__block {
+        & > .homePage__block__card {
+          & > h2 {
+            font-size: 35px;
+            text-align: center;
+          }
+          & > p {
+            font-size: 20px;
+          }
         }
+      }
+    }
+
+    &>.facilities{
+      &>h2{
+        font-size: 25px;
+      }
+
+      &>.facilities__card{
+        &>h2{
+          font-size: 20px;
+        }
+      }
     }
   }
 }

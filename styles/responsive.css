@@ -35,13 +35,14 @@
     font-size: 15px;
   }
   .sayt > .header > .header__h1 {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 60px;
     margin-bottom: 25px;
   }
   .sayt > .header > .header__bottom > button {
     width: 300px;
     height: 50px;
+    font-size: 15px;
   }
   .sayt > .header > .header__bottom > img {
     width: 40px;
@@ -61,10 +62,11 @@
     margin-top: -40px;
   }
   .sayt > .rooms > h2 {
-    font-size: 40px;
+    font-size: 30px;
+    line-height: 30px;
   }
   .sayt > .rooms > .rooms__room > .rooms__room__type {
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -78,13 +80,15 @@
   .sayt > .rooms > .rooms__room > .rooms__room__view > button {
     height: 40px;
     width: 260px;
+    font-size: 20px;
   }
   .sayt > .contact {
     padding-top: 80px;
     padding-bottom: 100px;
   }
   .sayt > .contact > h2 {
-    font-size: 40px;
+    font-size: 30px;
+    line-height: 30px;
     text-align: center;
   }
   .sayt > .contact > p {
@@ -115,7 +119,7 @@
     width: 50px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
   .sayt > .header > .header__text > h2 {
     font-size: 30px;
   }
@@ -130,8 +134,15 @@
   }
   .sayt > .homePage > .homePage__block > .homePage__block__card > h2 {
     font-size: 35px;
+    text-align: center;
   }
   .sayt > .homePage > .homePage__block > .homePage__block__card > p {
+    font-size: 20px;
+  }
+  .sayt > .facilities > h2 {
+    font-size: 25px;
+  }
+  .sayt > .facilities > .facilities__card > h2 {
     font-size: 20px;
   }
 }/*# sourceMappingURL=responsive.css.map */
