@@ -82,6 +82,7 @@
 }
 .sayt > .header > .header__top > ul > li {
   width: 138px;
+  height: 30px;
   list-style: none;
   padding: 10px;
   text-align: center;
