@@ -37,7 +37,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 80px;
-  line-height: 98px;
   /* identical to box height */
   color: #e5e5e5;
   text-align: center;
@@ -65,13 +64,11 @@
   color: #e0b973;
   font-weight: 400;
   font-size: 36px;
-  line-height: 40px;
   letter-spacing: 0.15em;
 }
 .sayt > .header > .header__top > .header__top__icon > h5 {
   font-weight: 400;
   font-size: 15px;
-  line-height: 22px;
   letter-spacing: 0.6em;
   margin-top: 13px;
   color: #e0b973;
@@ -93,7 +90,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  line-height: 30px;
   color: #ffffff;
   text-decoration: none;
 }
@@ -178,7 +174,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
-  line-height: 44px;
   /* identical to box height */
   color: #14274a;
 }
@@ -190,6 +185,8 @@
   margin-bottom: 69px;
 }
 .sayt > .homePage > .homePage__block > .homePage__block__card {
+  max-width: 864px;
+  width: 95%;
   margin: 20px;
   margin-top: 20px;
 }
@@ -203,7 +200,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 60px;
-  line-height: 67px;
   /* identical to box height */
   letter-spacing: 0.02em;
   color: #14274a;
@@ -213,7 +209,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  line-height: 40px;
   /* or 160% */
   color: #14274a;
   margin-top: 30px;
@@ -230,7 +225,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 24px;
   letter-spacing: 0.05em;
   color: #14274a;
   border: none;
@@ -246,7 +240,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
-  line-height: 72px;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.05em;
@@ -287,7 +280,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
-  line-height: 75px;
   text-align: center;
   background-color: #f7f7f7 !important;
   color: #e0b973;
@@ -298,9 +290,6 @@
 .sayt > .rooms {
   padding-top: 81px;
   padding-bottom: 135px;
-  transform: translateY(-100%);
-  z-index: 1;
-  display: none;
 }
 .sayt > .rooms > h2 {
   font-style: normal;
@@ -346,7 +335,7 @@
   width: 100%;
   margin: auto;
   position: absolute;
-  bottom: 37px;
+  bottom: 1%;
 }
 .sayt > .rooms > .rooms__room > .owl-carousel > .owl-dots > .owl-dot > span {
   width: 20px;

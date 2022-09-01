@@ -1,1 +1,200 @@
+@media screen and (max-width: 1024px) {
+  .sayt {
+    & > .header {
+      & > .header__text {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        & > h1 {
+          font-size: 125px;
+        }
+      }
+    }
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .sayt {
+    & > .header {
+      & > .header__top {
+        & > .header__top__icon {
+          padding: 20px;
+          & > h3 {
+            font-size: 25px;
+          }
+          & > h5 {
+            font-size: 15px;
+            margin-top: 0;
+          }
+        }
+      }
+      & > .header__text {
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        & > h2 {
+          font-size: 30px;
+        }
+        & > h1 {
+          font-size: 60px;
+        }
+        & > h3 {
+          font-size: 40px;
+        }
+
+        & > p {
+          font-size: 15px;
+        }
+      }
+      & > .header__h1 {
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 25px;
+      }
+
+      & > .header__bottom {
+        & > button {
+          width: 300px;
+          height: 50px;
+        }
+
+        & > img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+
+    & > .facilities {
+      & > h2 {
+        font-size: 40px;
+      }
+      & > p {
+        font-size: 15px;
+      }
+
+      & > .facilities__card {
+        & > h2 {
+          height: 40px;
+          padding: 0;
+          font-size: 30px;
+          line-height: 40px;
+          margin-top: -40px;
+        }
+      }
+    }
+
+    & > .rooms {
+      & > h2 {
+        font-size: 40px;
+      }
+
+      & > .rooms__room {
+        & > .rooms__room__type {
+          font-size: 25px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+        }
+
+        & > .rooms__room__view {
+          padding-top: 20px;
+          padding-bottom: 30px;
+
+          & > h3 {
+            font-size: 15px;
+          }
+
+          & > button {
+            height: 40px;
+            width: 260px;
+          }
+        }
+      }
+    }
+
+    & > .contact {
+      padding-top: 80px;
+      padding-bottom: 100px;
+      & > h2 {
+        font-size: 40px;
+        text-align: center;
+      }
+      & > p {
+        font-size: 20px;
+        text-align: center;
+      }
+
+      & > .forma {
+        margin-top: 80px;
+
+        & > div {
+          & > h3 {
+            font-size: 25px;
+          }
+        }
+
+        & > form {
+          & > input {
+            display: block;
+            height: 40px !important;
+            font-size: 25px;
+          }
+
+          & > :nth-child(6) {
+            height: 120px !important;
+          }
+        }
+      }
+    }
+
+    & > .footer {
+      & > form {
+        margin: 10px;
+        & > input {
+          width: 230px;
+        }
+        & > button {
+          width: 50px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  .sayt {
+    & > .header {
+     
+      & > .header__text {
+       
+        & > h2 {
+          font-size: 30px;
+        }
+        & > h1 {
+          font-size: 50px;
+        }
+        & > h3 {
+          font-size: 40px;
+        }
+
+        & > p {
+          font-size: 15px;
+        }
+      }
+    }
+
+    &>.homePage{
+
+        &>.homePage__block{
+
+            &>.homePage__block__card{
+
+                &>h2{
+                    font-size: 35px;
+                }
+                &>p{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+  }
+}
